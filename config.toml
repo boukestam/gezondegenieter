@@ -1,0 +1,36 @@
+baseURL = 'https://gezondegenieter.nl/'
+languageCode = 'en-us'
+title = 'Gezonde Genieter'
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+copyright = "Sarah de Jong - 2023"
+enableEmoji = true
+publishDir = "docs"
+disqusShortname = "gezonde-genieter"
+googleAnalytics = "UA-262003091-1"
+
+[params.author]
+  name = "Sarah de Jong"
+  thumbnail = "/images/sarah.png"
+  description = "Healthy lifestyle coach"
+
+[params.index]
+  picture = "/images/sarah.png"
+  title = "Sarah de Jong"
+  mdtext = '''Ik ben Sarah de Jong, een gezonde levensstijl expert, schrijver, influencer en blogger. Ik ben gepassioneerd over gezond eten en fitness en geloof in het vinden van een gezonde balans. Op mijn blog deel ik mijn kennis en ervaring om anderen te inspireren om gezondere keuzes te maken en te genieten van een energiek en gezond leven.'''
+  alertbar = true
+
+[params.social]
+  instagram = "<username>"
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog"
+[[menu.main]]
+    name = "Over mij"
+    identifier = "about"
+    weight = 200
+    url = "/over-mij"
